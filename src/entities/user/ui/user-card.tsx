@@ -16,7 +16,7 @@ export const UserCard = ({ user, onSelect }: UserCardProps) => {
     <button
       type="button"
       onClick={handleClick}
-      className="group flex w-full flex-col rounded-2xl border border-slate-200 bg-white p-5 text-left shadow-sm transition-all hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-300"
+      className="group flex w-full cursor-pointer flex-col rounded-2xl border border-slate-200 bg-white p-5 text-left shadow-sm transition-all hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-300"
     >
       <div className="flex items-start gap-4">
         <Avatar

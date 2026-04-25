@@ -18,7 +18,7 @@ export const UsersSearch = () => {
             type="button"
             aria-label="Очистить поиск"
             onClick={() => setSearch('')}
-            className="rounded-full p-1 text-slate-400 transition-colors hover:bg-slate-100 hover:text-slate-700"
+            className="cursor-pointer rounded-full p-1 text-slate-400 transition-colors hover:bg-slate-100 hover:text-slate-700"
           >
             <X size={14} />
           </button>

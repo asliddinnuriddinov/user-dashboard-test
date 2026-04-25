@@ -26,7 +26,7 @@ export const ViewToggle = () => {
             onClick={() => setView(item.value)}
             aria-pressed={isActive}
             className={cn(
-              'inline-flex h-8 items-center gap-2 rounded-md px-2.5 text-xs font-medium transition-colors',
+              'inline-flex h-8 cursor-pointer items-center gap-2 rounded-md px-2.5 text-xs font-medium transition-colors',
               isActive
                 ? 'bg-slate-900 text-white shadow-sm'
                 : 'text-slate-500 hover:text-slate-900',

@@ -14,7 +14,7 @@ export const UserRow = ({ user, onSelect }: UserRowProps) => {
     <button
       type="button"
       onClick={() => onSelect?.(user)}
-      className="grid w-full grid-cols-[auto_1.4fr_1.4fr_1fr_auto] items-center gap-4 rounded-xl border border-slate-200 bg-white px-4 py-3 text-left transition-colors hover:border-slate-300 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-300"
+      className="grid w-full cursor-pointer grid-cols-[auto_1.4fr_1.4fr_1fr_auto] items-center gap-4 rounded-xl border border-slate-200 bg-white px-4 py-3 text-left transition-colors hover:border-slate-300 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-300"
     >
       <Avatar
         src={user.image}

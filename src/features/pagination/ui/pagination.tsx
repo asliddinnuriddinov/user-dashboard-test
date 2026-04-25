@@ -46,7 +46,7 @@ export const Pagination = ({ page, totalPages, onPageChange }: PaginationProps) 
             onClick={() => goTo(item)}
             aria-current={item === page ? 'page' : undefined}
             className={cn(
-              'inline-flex h-9 min-w-9 items-center justify-center rounded-lg px-3 text-sm font-medium transition-colors',
+              'inline-flex h-9 min-w-9 cursor-pointer items-center justify-center rounded-lg px-3 text-sm font-medium transition-colors',
               item === page
                 ? 'bg-slate-900 text-white shadow-sm'
                 : 'text-slate-600 hover:bg-slate-100',

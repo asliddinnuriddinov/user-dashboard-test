@@ -15,7 +15,7 @@ export const PageSizeControl = () => {
     <Select<number>
       options={options}
       value={pageSize}
-      onChange={(next) => setPageSize(Number(next))}
+      onChange={setPageSize}
       className="w-44"
       aria-label="Размер страницы"
     />
